@@ -3,7 +3,7 @@ import requests,pathlib,csv,math,time,pickle
 
 # This is the base API URL for NYTimes Article Search and the API Key being used to pull the data.
 BASE_URL = 'https://api.nytimes.com/svc/search/v2/articlesearch.json'
-API_KEY = 'ooOlpNdFnuANOfT5dW73iONfg4V2O5ez'
+API_KEY = # Your API Key
 
 # Here are the base parameters, what is being searched for and the API key to allow for searches.
 gun_control_parameters = {'q' : 'Gun Control', 'api-key' : API_KEY}
